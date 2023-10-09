@@ -1,0 +1,142 @@
+@import "variaveis.css";
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--body-color);
+  z-index: var(--z-fixed);
+  transition: box-shadow 0.4s;
+}
+
+.nav {
+  position: relative;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  display: flex;
+  column-gap: 0.5rem;
+  align-items: center;
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+}
+
+.nav-logo-circle,
+.nav-toggle {
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  display: grid;
+  place-items: center;
+}
+
+.nav-logo-circle {
+  border-radius: 50%;
+}
+
+.nav-toggle {
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1150px) {
+  .nav-menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    padding-block: 1.8rem 5rem;
+    text-align: center;
+    backdrop-filter: blur(8px);
+    transition: top 0.5s;
+  }
+}
+
+.nav-title,
+.nav-name,
+.nav-close {
+  color: var(--white-color);
+}
+
+.nav-title {
+  display: block;
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 3.5rem;
+}
+
+.nav-name {
+  position: relative;
+  width: max-content;
+  margin: 0 auto 3rem;
+  font-size: var(--h2-font-size);
+}
+
+.nav-name::after,
+.nav-name::before {
+  content: "";
+  width: 2.5rem;
+  height: 1px;
+  background-color: var(--text-color-light);
+  position: absolute;
+  top: 50%;
+  left: -4rem;
+}
+
+.nav-name::before {
+  left: initial;
+  right: -4rem;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+}
+
+.nav-link {
+  position: relative;
+  color: var(--text-color-light);
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+  transition: color 0.4s;
+}
+
+.nav-link::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: var(--white-color);
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+  transition: width 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--white-color);
+}
+
+.nav-link:hover::after {
+  width: 55%;
+}
+
+.nav-close {
+  position: absolute;
+  font-size: 1.8rem;
+  top: 1rem;
+  right: 1.5rem;
+  cursor: pointer;
+}
+
+.mostrar-menu {
+  top: 0;
+}
+
