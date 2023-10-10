@@ -66,15 +66,31 @@ img {
   padding-block: 4rem 2rem;
 }
 
-.quadrado-laranja-inicio {
+.titulo-1 {
+  position: relative;
+  font-size: var(--h1-font-size);
+  width: max-content;
+  margin: .75rem auto 2rem;
+}
+
+.titulo-1::after {
+  content: '';
+  width: 2.5rem;
+  height: 1.75rem;
+  background-color: rgb(31, 84, 191, .3);
+  position: absolute;
+  top: -4px;
+  right: -8px;
+}
+.quadrado-azul {
   position: absolute;
   width: 1.25rem;
   height: 1.25rem;
-  background-color: var(--second-color);
+  background-color: var(--blue-color);
   rotate: -30deg;
 }
 
-.quadrado-laranja-inicio::after {
+.quadrado-azul::after {
   content: '';
   position: absolute;
   width: 1rem;
