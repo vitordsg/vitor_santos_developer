@@ -70,14 +70,14 @@ img {
   position: relative;
   font-size: var(--h1-font-size);
   width: max-content;
-  margin: .75rem auto 2rem;
+  margin: 0.75rem auto 2rem;
 }
 
 .titulo-1::after {
-  content: '';
+  content: "";
   width: 2.5rem;
   height: 1.75rem;
-  background-color: rgb(31, 84, 191, .3);
+  background-color: rgb(31, 84, 191, 0.3);
   position: absolute;
   top: -4px;
   right: -8px;
@@ -91,7 +91,7 @@ img {
 }
 
 .quadrado-azul::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 1rem;
   height: 1rem;
@@ -101,4 +101,13 @@ img {
 }
 .main {
   overflow: hidden;
+}
+
+.icon {
+  transition: 3s;
+}
+
+.icon-habilidade:hover {
+  width: 80px;
+  transition-duration: 500ms;
 }
