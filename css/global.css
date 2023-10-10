@@ -102,12 +102,3 @@ img {
 .main {
   overflow: hidden;
 }
-
-.icon {
-  transition: 3s;
-}
-
-.icon-habilidade:hover {
-  width: 80px;
-  transition-duration: 500ms;
-}
