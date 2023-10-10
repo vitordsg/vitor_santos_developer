@@ -61,3 +61,28 @@ img {
   display: grid;
   gap: 1.5rem;
 }
+
+.section {
+  padding-block: 4rem 2rem;
+}
+
+.quadrado-laranja-inicio {
+  position: absolute;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-color: var(--second-color);
+  rotate: -30deg;
+}
+
+.quadrado-laranja-inicio::after {
+  content: '';
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  border: 3px solid var(--black-color);
+  left: -5px;
+  top: -5px;
+}
+.main {
+  overflow: hidden;
+}
