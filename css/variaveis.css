@@ -5,7 +5,8 @@
 
   /* Cores */
   --first-color: rgb(252, 61, 3);
-  --blue-color: rgb(31, 84, 191);
+  --blue-color: rgb(50, 97, 191);
+  --blue-color-light:rgb(58, 124, 255);
   --black-color: rgb(0, 0, 0);
   --black-color-light: rgb(102, 102, 102);
   --white-color: rgb(242, 242, 242);

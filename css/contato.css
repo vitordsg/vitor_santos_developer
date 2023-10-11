@@ -137,6 +137,10 @@
   cursor: pointer;
 }
 
+.contato-botao:hover {
+  background-color: var(--blue-color-light);
+}
+
 .contato-input:focus + .contato-label,
 .contato-input:not(:placeholder-shown).contato-input:not(:focus)
   + .contato-label {
