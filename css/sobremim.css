@@ -139,6 +139,7 @@
   list-style: square;
   color: var(--title-color);
   margin-bottom: 3rem;
+  padding: 2.5rem;
 }
 
 .sobre-botoes {
