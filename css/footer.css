@@ -41,9 +41,9 @@
 
 ::-webkit-scrollbar-thumb {
   border-radius: .5rem;
-  background-color: var(--blue-color-light);
+  background-color: var(--blue-color);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: var(--blue-color);
+  background-color: var(--blue-color-light);
 }

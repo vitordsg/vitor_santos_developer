@@ -37,3 +37,23 @@
 .tema-escuro .inicio-descricao b {
   background: linear-gradient(90deg, rgba(0, 75, 224, 0.637), rgba(3, 86, 252, 0));
 }
+
+.tema-escuro :is(.botao-fantasma) {
+  color: var(--white-color);
+}
+
+.tema-escuro .projetos-card:hover {
+  background-color: var(--body-color);
+}
+
+.tema-escuro :is(.contato-email, .contato-input, .contato-label) {
+  background-color: var(--container-color);
+}
+
+.tema-escuro .footer {
+  background-color: rgb(10, 10, 10);
+}
+
+.tema-escuro::-webkit-scrollbar {
+  background-color: hsl(0, 0%, 20%);
+}

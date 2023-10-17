@@ -69,18 +69,20 @@
 }
 
 .inicio-social-link {
-  background-color: var(--black-color-light);
-  color: var(--white-color);
+  /* background-color: var(--black-color-light); */
+  color: var(--black-color);
   font-size: 1.35rem;
   padding: 8px;
   display: grid;
   place-items: center;
   border-radius: 50%;
-  transition: background-color 0.4s;
+  transition: background-color 0.7s, color 0.7s;
 }
 
 .inicio-social-link:hover {
-  background-color: var(--black-color);
+  background-color: var(--blue-color-light);
+  color: var(--white-color);
+  transition: background-color 0.7s, color 0.7s;
 }
 
 .inicio-info {
@@ -94,7 +96,11 @@
 }
 
 .inicio-descricao b {
-  background: linear-gradient(90deg, rgb(31, 84, 191, .4), rgba(252, 61, 3, 0));
+  background: linear-gradient(
+    90deg,
+    rgb(31, 84, 191, 0.4),
+    rgba(252, 61, 3, 0)
+  );
 }
 
 .inicio-scroll {
@@ -117,12 +123,12 @@
   font-size: 1.2rem;
   cursor: pointer;
   overflow: hidden;
-  transition: background-color .4s;
+  transition: background-color 0.4s;
   border-radius: 5px;
 }
 
 .inicio-scroll-box i {
-  animation: rolar-para-baixo .9s infinite;
+  animation: rolar-para-baixo 0.9s infinite;
 }
 
 @keyframes rolar-para-baixo {
@@ -137,7 +143,7 @@
   }
 
   100% {
-    transform: translateY(.6rem);
+    transform: translateY(0.6rem);
     opacity: 0;
   }
 }

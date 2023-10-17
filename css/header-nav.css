@@ -7,7 +7,7 @@
   left: 0;
   background-color: var(--body-color);
   z-index: var(--z-fixed);
-  transition: box-shadow 0.4s;
+  transition: box-shadow 0.4s, background-color 1s;
 }
 
 .nav {
@@ -26,6 +26,15 @@
   color: var(--title-color);
 }
 
+.nav-logo-name {
+  transition: color 0.7s;
+}
+
+.nav-logo-name:hover {
+  color: var(--blue-color-light);
+  transition: color 0.7s;
+}
+
 .nav-logo-circle,
 .nav-toggle {
   width: 2rem;
@@ -42,13 +51,14 @@
 }
 
 .nav-logo-circle:hover {
-  transition: background-color 1s;
+  transition: background-color 0.7s;
   background-color: var(--blue-color-light);
 }
 
 .nav-toggle {
   font-size: 1.125rem;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 1150px) {
