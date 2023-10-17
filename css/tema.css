@@ -11,7 +11,7 @@
   transition: color 0.3s;
 }
 
-.body .tema-escuro {
+.tema-escuro {
   --blue-color: hsl(220, 59%, 47%);
   --blue-color-light:rgb(58, 124, 255);
   --black-color: rgb(46, 46, 46);
