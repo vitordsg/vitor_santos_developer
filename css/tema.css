@@ -8,16 +8,32 @@
   font-size: 1.25rem;
   color: var(--title-color);
   cursor: pointer;
-  transition: color 0.3s;
+  transition: color 1s;
 }
 
 .tema-escuro {
   --blue-color: hsl(220, 59%, 47%);
-  --blue-color-light:rgb(58, 124, 255);
+  --blue-color-light: rgb(58, 124, 255);
   --black-color: rgb(46, 46, 46);
   --black-color-light: rgb(77, 77, 77);
   --title-color: rgb(242, 242, 242);
   --text-color: rgb(179, 179, 179);
   --body-color: rgb(20, 20, 20);
   --container-color: rgb(31, 31, 31);
+}
+
+.tema-escuro .sombra-header {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+}
+
+.tema-escuro .titulo-1::after, .tema-escuro .titulo-2::after {
+  background-color: rgba(0, 75, 224, 0.637);
+}
+
+.tema-escuro :is(.inicio-seta, .inicio-linha, .sobre-linha) {
+  filter: none;
+}
+
+.tema-escuro .inicio-descricao b {
+  background: linear-gradient(90deg, rgba(0, 75, 224, 0.637), rgba(3, 86, 252, 0));
 }

@@ -34,10 +34,16 @@
   color: var(--white-color);
   display: grid;
   place-items: center;
+  transition: background-color 1s;
 }
 
 .nav-logo-circle {
   border-radius: 50%;
+}
+
+.nav-logo-circle:hover {
+  transition: background-color 1s;
+  background-color: var(--blue-color-light);
 }
 
 .nav-toggle {
