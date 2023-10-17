@@ -3,10 +3,11 @@ import removerMenuMobile from "./modules/removerMenuMobile.js";
 import sombraHeader from "./modules/sombraHeader.js";
 import botaoParaInicio from "./modules/botaoParaInicio.js";
 import linkAtivoDeSecoesRolagem from "./modules/linkAtivoDeSecoesRolagem.js";
+import temaEscuroClaro from "./modules/tema-escuro-claro.js";
 
 linkAtivoDeSecoesRolagem();
 sombraHeader();
 mostrarMenuMobile();
 removerMenuMobile();
 botaoParaInicio();
-
+temaEscuroClaro();
