@@ -14,15 +14,41 @@
   }
 
   .inicio-imagem {
-    width: 5rem;
+    width: 7rem;
   }
 
   .sobre-imagem {
-    width: 5rem;
+    width: 7rem;
+  }
+
+  .sobre-linha {
+    right: 6rem;
+    top: -1rem;
+    width: 3rem;
   }
 
   .sobre-sombra {
     display: none;
+  }
+
+  .icon-habilidade {
+    width: 2.5rem;
+  }
+
+  .botao {
+    padding: .7rem;
+  }
+
+  .botao-fantasma {
+    padding: .2rem;
+  }
+
+  .contato-dados {
+    width: 100%;
+  }
+
+  .contato-dados .titulo-2 {
+    transform: translateX(0);
   }
 }
 
