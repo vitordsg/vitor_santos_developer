@@ -20,6 +20,11 @@
   --text-color: rgb(179, 179, 179);
   --body-color: rgb(20, 20, 20);
   --container-color: rgb(31, 31, 31);
+  --container-projeto: rgb(45, 45, 45);
+}
+
+.tema-escuro .inicio-social-link {
+  color: var(--white-color);
 }
 
 .tema-escuro .sombra-header {
@@ -40,6 +45,10 @@
 
 .tema-escuro :is(.botao-fantasma) {
   color: var(--white-color);
+}
+
+.tema-escuro .projetos-card {
+  background-color: var(--container-projeto);
 }
 
 .tema-escuro .projetos-card:hover {
