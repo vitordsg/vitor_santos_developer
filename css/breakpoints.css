@@ -54,7 +54,7 @@
   }
 }
 
-/* Pequenos dispositivos 340px */
+/* Pequenos dispositivos 300px & 500px */
 
 @media screen and (min-width: 300px) and (max-width: 500px) {
   .container {
@@ -98,10 +98,13 @@
   }
 }
 
-/* Pequenos Dispositivos 400px */
+/* Dispositivos Médios 580px */
 
 @media screen and (min-width: 580px) {
-  .inicio-container,.sobre-container {
+  .inicio-container,
+  .sobre-container,
+  .habilidades-container,
+  .projetos-container {
     grid-template-columns: 350px;
     justify-content: center;
   }
