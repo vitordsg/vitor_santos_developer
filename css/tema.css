@@ -55,6 +55,10 @@
   background-color: var(--body-color);
 }
 
+.tema-escuro .contato-social-link {
+  color: var(--white-color);
+}
+
 .tema-escuro :is(.contato-email, .contato-input, .contato-label) {
   background-color: var(--container-color);
 }
