@@ -139,40 +139,41 @@
             Apaixonado por criar <b>páginas web</b> com <b>interface UI/UX</b>, tenho anos de experiência e muitos clientes estão satisfeitos com os projetos realizados
           </p>
 
-      </div>
+        </div>
     </section>
 
     <section class="habilidades section" id="habilidades">
-      <div class="titulo-habilidades" id="habilidades">
-        <h1 class="">Habilidades</h1>
+      <div class="habilidades-container container grid">
+        <div class="titulo-habilidades" id="habilidades">
+          <h1 class="">Habilidades</h1>
+        </div>
+
+        <ul class="sobre-lista">
+          <li class="sobre-item">
+            HTML5, CSS3, JavaScript, Git & Github e Photoshop.
+          </li>
+        </ul>
+
+        <div class="icons-habilidades">
+          <img src="icons/html5.svg" alt="Logo HTML5" class="icon-habilidade">
+          <img src="icons/css3.svg" alt="Logo CSS3" class="icon-habilidade">
+          <img src="icons/javascript.svg" alt="Logo JavaScript" class="icon-habilidade">
+          <img src="icons/git.svg" alt="Logo Git" class="icon-habilidade">
+          <img src="icons/github.svg" alt="Logo Github" class="icon-habilidade">
+          <img src="icons/photoshop.svg" alt="Logo Photoshop" class="icon-habilidade">
+        </div>
+
+        <div class="sobre-botoes">
+          <a href="#contato" class="botao">
+            <i class="ri-send-plane-line"></i>Contate-me
+          </a>
+
+          <a href="https://www.linkedin.com/in/vitordsg/" target="_blank" class="botao-fantasma">
+            <i class="ri-linkedin-box-line"></i>
+          </a>
+        </div>
       </div>
 
-      <ul class="sobre-lista">
-        <li class="sobre-item">
-          HTML5, CSS3, JavaScript, Git & Github e Photoshop.
-        </li>
-      </ul>
-
-      <div class="icons-habilidades">
-        <img src="icons/html5.svg" alt="Logo HTML5" class="icon-habilidade">
-        <img src="icons/css3.svg" alt="Logo CSS3" class="icon-habilidade">
-        <img src="icons/javascript.svg" alt="Logo JavaScript" class="icon-habilidade">
-        <img src="icons/git.svg" alt="Logo Git" class="icon-habilidade">
-        <img src="icons/github.svg" alt="Logo Github" class="icon-habilidade">
-        <img src="icons/photoshop.svg" alt="Logo Photoshop" class="icon-habilidade">
-      </div>
-
-      <div class="sobre-botoes">
-        <a href="#contato" class="botao">
-          <i class="ri-send-plane-line"></i>Contate-me
-        </a>
-
-        <a href="https://www.linkedin.com/in/vitordsg/" target="_blank" class="botao-fantasma">
-          <i class="ri-linkedin-box-line"></i>
-        </a>
-      </div>
-
-    </div>
     </section>
 
     <!-------------------Projetos---------------------------- Projetos --------------------------->
@@ -455,7 +456,7 @@
         contatoForm.reset();
       }, () => {
         // Mostrar Mensagem de Error!
-        contatoMensagem.textContent ='Mensagem não enviada (ERRO de serviço ❌)'
+        contatoMensagem.textContent = 'Mensagem não enviada (ERRO de serviço ❌)'
       })
     }
     contatoForm.addEventListener('submit', enviarEmail)

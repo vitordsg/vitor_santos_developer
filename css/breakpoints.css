@@ -101,7 +101,7 @@
 /* Pequenos Dispositivos 400px */
 
 @media screen and (min-width: 580px) {
-  .inicio-container {
+  .inicio-container,.sobre-container {
     grid-template-columns: 350px;
     justify-content: center;
   }
