@@ -186,18 +186,22 @@
 }
 
 .contato-social-link {
-  background-color: var(--black-color-light);
+  /* background-color: var(--black-color-light); */
   padding: 0.375rem;
-  color: var(--white-color);
+  color: var(--black-color);
   font-size: 1.3rem;
   display: grid;
   place-items: center;
   border-radius: 10px;
-  transition: background-color .5s;
+  transition: background-color .5s, color .5s;
+  transition-timing-function: ease;
 }
 
 .contato-social-link:hover {
   background-color: var(--blue-color);
+  color: var(--white-color);
+  transition: background-color .5s, color .5s;
+  transition-timing-function: ease;
 }
 
 .contato-mensagem {

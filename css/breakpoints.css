@@ -61,10 +61,6 @@
     margin-inline: 1rem;
   }
 
-  .main {
-    overflow: hidden;
-  }
-
   .inicio-imagem {
     width: 12.25rem;
   }
@@ -105,7 +101,43 @@
   .sobre-container,
   .habilidades-container,
   .projetos-container {
-    grid-template-columns: 350px;
+    grid-template-columns: 21.875rem;
     justify-content: center;
+  }
+
+  .contato-dados {
+    width: 21.875rem;
+    padding: 4rem 1.5rem;
+    margin-inline: auto;
+  }
+
+  .contato-container {
+    grid-template-columns: 31.25rem;
+    justify-content: center;
+  }
+
+  .contato-grupo {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+  }
+
+  .contato-social {
+    background-color: transparent;
+  }
+
+  .contato-social-seta {
+    filter: invert(1);
+  }
+
+  .contato-social-descricao-1 {
+    color: var(--text-color);
+  }
+
+  .contato-social-descricao-2 {
+    color: var(--title-color);
+  }
+
+  .tema-escuro .contato-social-seta {
+    filter: none;
   }
 }
