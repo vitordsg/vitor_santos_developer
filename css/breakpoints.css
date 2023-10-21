@@ -95,7 +95,6 @@
 }
 
 /* Dispositivos Médios 580px */
-
 @media screen and (min-width: 580px) {
   .inicio-container,
   .sobre-container,
@@ -139,5 +138,52 @@
 
   .tema-escuro .contato-social-seta {
     filter: none;
+  }
+}
+
+/* Dispositivos Médios 780px */
+@media screen and (min-width: 780px) {
+  .projetos-container {
+    grid-template-columns: repeat(2, 350px);
+  }
+
+  .habilidades-container {
+    grid-template-columns: 35rem;
+  }
+
+  .sobre-lista {
+    text-align: center;
+  }
+}
+
+/* Dispositivos Grandes 1150px */
+@media screen and (min-width: 1150px) {
+  .container {
+    margin-inline: auto;
+  }
+
+  .section {
+    padding-block: 8rem 2rem;
+  }
+
+  .titulo-1::after,
+  .titulo-2::after {
+    width: 4.375rem;
+    height: 3rem;
+  }
+
+  .quadrado-azul {
+    transform: scale(1.2);
+  }
+
+  .nav {
+    height: calc(var(--header-height) + 2rem);
+  }
+
+  .nav-title,
+  .nav-name,
+  .nav-close,
+  .nav-toggle {
+    display: none;
   }
 }

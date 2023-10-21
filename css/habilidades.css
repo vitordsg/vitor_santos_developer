@@ -1,6 +1,7 @@
 .titulo-habilidades {
   text-align: center;
   margin: 0 auto;
+  z-index: 10;
 }
 
 .sobre-lista {

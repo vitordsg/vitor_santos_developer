@@ -70,7 +70,7 @@ img {
 .titulo-1,
 .titulo-2 {
   position: relative;
-  font-size: var(--h1-font-size);
+  font-size: var(--biggest-font-size);
   width: max-content;
   margin: 0.75rem auto 2rem;
 }
