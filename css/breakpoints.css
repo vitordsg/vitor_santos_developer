@@ -242,7 +242,7 @@
 
   .inicio-container {
     grid-template-columns: repeat(2, 28.75rem);
-    gap: 2rem 4rem;
+    gap: 6rem 9rem;
     align-items: center;
     padding-block: 5.5rem;
   }
