@@ -122,7 +122,8 @@
   color: var(--text-color-light);
   font-size: var(--h3-font-size);
   font-weight: var(--font-semi-bold);
-  transition: color 0.4s;
+  transition: color 0.4s, 0.4s;
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
 .nav-link::after {
