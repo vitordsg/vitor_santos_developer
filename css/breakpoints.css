@@ -249,6 +249,7 @@
 
   .inicio-nome {
     font-size: var(--biggest-font-size-2);
+    align-self: flex-end;
   }
 
   .inicio-perfil {
@@ -264,5 +265,21 @@
     right: -1.25rem;
     bottom: -1.20rem;
     border: 6px solid var(--black-color);
+  }
+
+  .inicio-nome, .inicio-descricao {
+    text-align: initial;
+  }
+
+  .inicio-info {
+    margin-top: 0;
+    align-self: flex-start;
+  }
+
+  .inicio-descricao {
+    position: relative;
+    font-size: var(--h2-font-size);
+    margin-bottom: 5.5rem;
+    /* padding-left: 3rem; */
   }
 }
