@@ -280,6 +280,62 @@
     position: relative;
     font-size: var(--h2-font-size);
     margin-bottom: 5.5rem;
-    /* padding-left: 3rem; */
+    padding-left: 3rem;
+  }
+
+  .inicio-descricao::after {
+    content: '';
+    width: 2rem;
+    height: 2px;
+    background-color: var(--black-color);
+    position: absolute;
+    left: 0;
+    top: 14px;
+  }
+
+  .inicio-scroll {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    column-gap: .75rem;
+  }
+
+  .inicio-scroll-texto {
+    display: block;
+    color: var(--text-color);
+    font-size: var(--smaller-font-size);
+    font-weight: var(--font-medium);
+  }
+
+  .inicio-scroll-box {
+    width: 3rem;
+    height: 2.75rem;
+  }
+
+  .inicio-scroll-box i {
+    font-size: 1.5rem;
+  }
+
+  .inicio-perfil .quadrado-azul {
+    top: 13rem;
+  }
+
+  .inicio-seta {
+    top: 4.5rem;
+    left: -8rem;
+    rotate: 80deg;
+    width: 5rem;
+  }
+
+  .inicio-linha {
+    left: -15rem;
+    bottom: 4rem;
+    width: 5rem;
+    rotate: 30deg;
+  }
+
+  .inicio-social {
+    left: initial;
+    right: -6rem;
   }
 }
