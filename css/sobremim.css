@@ -58,16 +58,6 @@
   bottom: 1.5rem;
 }
 
-.sobre-box::after {
-  content: '';
-  position: absolute;
-  width: 2.5rem;
-  height: 2.6rem;
-  border: 3px solid var(--black-color);
-  left: 1px;
-  top: -6px;
-}
-
 .sobre-info {
   padding-left: 1.25rem;
 }
