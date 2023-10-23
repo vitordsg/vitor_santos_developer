@@ -59,14 +59,14 @@
 }
 
 .botao:hover {
-  background-color: var(--blue-color);
+  background-color: var(--blue-color-light);
 }
 
 .botao-fantasma {
   border: 2px solid var(--black-color);
   color: var(--black-color);
   padding: .5rem;
-  transition: border .4s color .4s;
+  transition: border .4s, color .4s;
 }
 
 .botao-fantasma i {
@@ -74,6 +74,7 @@
 }
 
 .botao-fantasma:hover {
-  border: 2px solid var(--blue-color);
-  
+  border: 2px solid var(--blue-color-light);
+  color: var(--blue-color-light);
+  transition: border .4s, color .4s;
 }

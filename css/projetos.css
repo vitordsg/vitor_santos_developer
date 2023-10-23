@@ -57,7 +57,7 @@
   display: flex;
   align-items: center;
   column-gap: 3rem;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .projetos-link {
@@ -78,7 +78,7 @@
 
 .projetos-link:hover,
 .projetos-link i:hover {
-  color: var(--blue-color);
+  color: var(--blue-color-light);
 }
 
 .projetos-card:hover {
