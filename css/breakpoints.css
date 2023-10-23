@@ -259,4 +259,10 @@
   .inicio-imagem {
     width: 28.175rem;
   }
+
+  .inicio-sombra {
+    right: -1.25rem;
+    bottom: -1.20rem;
+    border: 6px solid var(--black-color);
+  }
 }
