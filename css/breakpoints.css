@@ -532,4 +532,18 @@
     box-shadow: 4px 0 8px rgba(10, 10, 10, 0.497);
   }
 
+  .footer-container {
+    padding-block: 4rem;
+    grid-template-columns: repeat(2 , max-content);
+    justify-content: space-between;
+  }
+
+  .footer-links {
+    column-gap: 3rem;
+    order: 1;
+  }
+
+  .rolar-para-cima {
+    right: 2rem;
+  }
 }
