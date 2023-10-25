@@ -45,6 +45,7 @@
 
 .tema-escuro :is(.botao-fantasma) {
   color: var(--white-color);
+  border-color: var(--white-color);
 }
 
 .tema-escuro .projetos-card {
