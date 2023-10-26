@@ -6,6 +6,7 @@ import linkAtivoDeSecoesRolagem from "./modules/linkAtivoDeSecoesRolagem.js";
 import temaEscuroClaro from "./modules/tema-escuro-claro.js";
 import enviarEmail from "./modules/email.js";
 
+
 linkAtivoDeSecoesRolagem();
 sombraHeader();
 mostrarMenuMobile();
@@ -25,5 +26,3 @@ const sr = ScrollReveal( {
 
 sr.reveal(`.inicio-perfil`, {origin: 'right'})
 sr.reveal(`.inicio-nome, .inicio-info`, {origin: 'left'})
-
-// Relevar Sections ao Scrollar com o mouse
