@@ -25,5 +25,5 @@ const sr = ScrollReveal( {
 })
 
 sr.reveal(`.inicio-perfil , .sobre-imagem, .contato-email`, {origin: 'right'})
-sr.reveal(`.inicio-nome, .inicio-info, .sobre-container, .sobre-info, .contato-dados, .contato-social`, {origin: 'left'})
+sr.reveal(`.inicio-nome, .inicio-info, .sobre-info, .contato-dados, .contato-social`, {origin: 'left'})
 sr.reveal(`.titulo-1, .habilidades-container, .projetos-card`, {interval: 100})
