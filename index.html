@@ -429,38 +429,15 @@
     <i class="ri-arrow-up-double-line"></i>
   </a>
 
+  <!-- Códigos em modules separados -->
   <script type="module" src="./js/script.js"></script>
 
-  <!-- Email js  - SDK EmailJS -->
+  <!-- Scroll Reveal - Revelar Sections ao Scrollar com o mouse -->
+  <script src="./js/scrollreveal.min.js"></script>
+
+  <!-- Email.js - Enviar Email - SDK EmailJS -->
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
-  <script>
-    const contatoForm = document.querySelector('.contato-form')
-    const contatoMensagem = document.querySelector('.contato-mensagem')
-
-    const enviarEmail = (e) => {
-      e.preventDefault();
-
-      // serviceID - templateID - #form - publickKey
-      emailjs.sendForm('service_t4bamab', 'template_jug2h9v', '#contato-form', '8rhKa0NcK5Vyr-PDJ').then(() => {
-
-        // Mostrar enviar mensagem
-        contatoMensagem.textContent = 'Mensagem enviada com sucesso!✔️'
-
-        // Remover mensagem após 5 segundos
-        setTimeout(() => {
-          contatoMensagem.textContent = '';
-        }, 5000);
-
-        // Limpar as caixas de texto
-        contatoForm.reset();
-      }, () => {
-        // Mostrar Mensagem de Error!
-        contatoMensagem.textContent = 'Mensagem não enviada (ERRO de serviço ❌)'
-      })
-    }
-    contatoForm.addEventListener('submit', enviarEmail)
-  </script>
 </body>
 
 </html>
