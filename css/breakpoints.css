@@ -370,6 +370,10 @@
     padding-block: 1rem;
   }
 
+  .sobre-container .titulo-1::after {
+    top: -15px;
+  }
+
   .sobre-perfil {
     order: -1;
     grid-row: 1 / 3;

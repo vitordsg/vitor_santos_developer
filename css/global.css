@@ -88,9 +88,13 @@ img {
   height: 1.75rem;
   background-color: rgb(31, 84, 191, 0.3);
   position: absolute;
-  top: -4px;
+  top: 6px;
   right: -8px;
+  /* rotate: 60deg; */
+  border-radius: 4px;
 }
+
+@keyframes rotation
 
 .titulo-2::after {
   top: initial;
