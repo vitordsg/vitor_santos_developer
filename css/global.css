@@ -94,8 +94,6 @@ img {
   border-radius: 4px;
 }
 
-@keyframes rotation
-
 .titulo-2::after {
   top: initial;
   bottom: -4px;
@@ -106,9 +104,11 @@ img {
   height: 1.25rem;
   background-color: var(--blue-color);
   rotate: -30deg;
+  border: 2px solid var(--white-color);
+  animation: rotacao 6s linear infinite;
 }
 
-.quadrado-azul::after {
+/* .quadrado-azul::after {
   content: "";
   position: absolute;
   width: 1rem;
@@ -116,6 +116,16 @@ img {
   border: 3px solid var(--black-color);
   left: -5px;
   top: -5px;
+} */
+
+@keyframes rotacao {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .main {

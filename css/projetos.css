@@ -20,7 +20,6 @@
 
 .projetos-card:hover .projetos-imagem {
   filter: blur(0);
-  background-image: url("../img/project-3.jpg");
 }
 
 .projetos-botao {

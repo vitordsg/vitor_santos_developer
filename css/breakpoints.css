@@ -1,8 +1,18 @@
 /* Pequenos dispositivos 100px & 300px */
 
-@media screen and (min-width: 100px) and (max-width: 300px) {
+@media (max-width: 320px) {
   .container {
-    margin-inline: 2rem;
+    margin-inline: 3rem;
+  }
+
+  .quadrado-azul {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .inicio-perfil .quadrado-azul {
+    top: 3rem;
+    left: -.5rem;
   }
 
   .inicio-nome {
@@ -37,12 +47,21 @@
     width: 2.5rem;
   }
 
+  .sobre-botoes {
+    flex-direction: column;
+    gap: 20px;
+  }
+
   .botao {
     padding: 0.7rem;
   }
 
   .botao-fantasma {
     padding: 0.2rem;
+  }
+
+  .projetos-imagem {
+    filter: blur(0px);
   }
 
   .contato-dados {
@@ -56,7 +75,7 @@
 
 /* Pequenos dispositivos 300px & 500px */
 
-@media screen and (min-width: 300px) and (max-width: 580px) {
+@media screen and (min-width: 321px) and (max-width: 580px) {
   .container {
     margin-inline: 1rem;
   }
@@ -85,6 +104,19 @@
     right: -2.8rem;
   }
 
+  .icon-habilidade {
+    width: 3.5rem;
+  }
+
+  .sobre-botoes {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .projetos-imagem {
+    filter: blur(0px);
+  }
+
   .contato-dados {
     width: 100%;
   }
@@ -95,6 +127,12 @@
 
   .contato-social-link {
     color: var(--white-color);
+  }
+}
+
+@media (min-width: 420px) {
+  .sobre-botoes {
+    flex-direction: row;
   }
 }
 
@@ -142,6 +180,10 @@
 
   .tema-escuro .contato-social-seta {
     filter: none;
+  }
+
+  .projetos-imagem {
+    filter: blur(0px);
   }
 
   .contato-dados {
@@ -450,6 +492,7 @@
 
   .projetos-imagem {
     margin-bottom: 1rem;
+    filter: blur(2px);
   }
 
   .projetos-content {

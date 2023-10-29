@@ -20,3 +20,24 @@
 .mostrar-rolagem {
   bottom: 3rem;
 }
+
+.rolar-para-cima i {
+  animation: rolar-para-cima 1s infinite;
+}
+
+@keyframes rolar-para-cima {
+  0% {
+    transform: translateY(0.6rem);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+}
