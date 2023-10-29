@@ -152,7 +152,6 @@
   .contato-email {
     border-radius: 4%;
   }
-  
 }
 
 /* Dispositivos Médios 780px */
@@ -370,7 +369,9 @@
     padding-block: 1rem;
   }
 
-  .sobre-container .titulo-1::after {
+  .sobre-container .titulo-1::after,
+  .habilidades-container .titulo-1::after,
+  .projetos .titulo-1::after {
     top: -15px;
   }
 
@@ -538,7 +539,7 @@
 
   .footer-container {
     padding-block: 4rem;
-    grid-template-columns: repeat(2 , max-content);
+    grid-template-columns: repeat(2, max-content);
     justify-content: space-between;
   }
 
