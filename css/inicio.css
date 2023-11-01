@@ -30,7 +30,30 @@
   right: -0.75rem;
   border: 4px solid var(--black-color);
   z-index: 5;
-  transition: background-color 0.4s;
+  transition: background-color 0.4s, border 0.7s;
+  animation: bordaPulsante 10s linear infinite;
+}
+
+@keyframes bordaPulsante {
+  0% {
+    border-color: var(--black-color);
+  }
+
+  25% {
+    border-color: var(--blue-color);
+  }
+
+  50% {
+    border-color: var(--blue-color-light);
+  }
+
+  75% {
+    border-color: var(--blue-color-light);
+  }
+
+  100% {
+    border-color: var(--black-color);
+  }
 }
 
 .inicio-seta,

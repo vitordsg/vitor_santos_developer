@@ -168,3 +168,23 @@
 .link-ativo::after {
   width: 55%;
 }
+
+.mudar-tema {
+  position: absolute;
+  transform: translate(-50%, 50%);
+  animation: flutuando 3s infinite ease-in-out;
+}
+
+@keyframes flutuando {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
