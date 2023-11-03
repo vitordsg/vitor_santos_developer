@@ -292,6 +292,7 @@
   }
 
   .mudar-tema {
+    position: absolute;
     color: var(--text-color);
   }
 

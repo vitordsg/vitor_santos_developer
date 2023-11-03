@@ -170,7 +170,6 @@
 }
 
 .mudar-tema {
-  position: absolute;
   transform: translate(-50%, 50%);
   animation: flutuando 3s infinite ease-in-out;
 }
