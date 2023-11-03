@@ -378,6 +378,9 @@
   }
 
   .inicio-perfil .quadrado-azul {
+    width: 2rem;
+    height: 2rem;
+    left: -.9rem;
     top: 13rem;
   }
 
@@ -440,6 +443,8 @@
   }
 
   .sobre-perfil .quadrado-azul {
+    width: 2rem;
+    height: 2rem;
     right: -4rem;
     top: 4.5rem;
   }
