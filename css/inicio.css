@@ -3,7 +3,7 @@
   --color-2: rgb(38, 124, 255);
   --color-3: rgb(58, 141, 255);
   --color-4: rgb(78, 155, 255);
-  --color-5: rgb(1, 1, 1);
+  --color-5: rgb(98, 155, 255);
 }
 
 .inicio-container {
@@ -33,36 +33,36 @@
 .inicio-sombra {
   width: 100%;
   height: 100%;
-  background-color: var(--container-color);
+  background-color: var(--body-color);
   position: absolute;
-  bottom: -0.75rem;
-  right: -0.75rem;
-  border: none;
-  border-radius: 2px;
-  z-index: 5;
+  bottom: -0.95rem;
+  right: -0.95rem;
+  border-radius: 10px;
+  z-index: 1;
   transition: background-color 0.4s, border 0.7s;
-  /* animation: bordaPulsante 10s linear infinite; */
 }
 
-.inicio-sombra::before,
-.inicio-sombra::after {
+.inicio-imagem::before,
+.inicio-imagem::after {
   content: "";
   position: absolute;
-  inset: 0;
+  inset: -.1rem;
+  z-index: -1;
   background: conic-gradient(
-     from var(--angulo-gradiente),
-    var(--color-3),
+    from var(--angulo-gradiente),
+    var(--blue-color),
     var(--color-4),
-    var(--color-5),
+    var(--blue-color-light),
     var(--color-4),
-    var(--color-3)
+    var(--blue-color)
   );
   border-radius: inherit;
-  animation: rotacao 20s linear infinite;
+  animation: rotacao 3s linear infinite;
+  filter: blur(5px);
 }
 
-.inicio-sombra::after {
-  filter: blur(3.5rem);
+.inicio-imagem::after {
+  filter: blur(5px);
 }
 
 @property --angulo-gradiente {
@@ -80,28 +80,6 @@
   }
 }
 
-@keyframes bordaPulsante {
-  0% {
-    border-color: var(--black-color);
-  }
-
-  25% {
-    border-color: var(--blue-color);
-  }
-
-  50% {
-    border-color: var(--blue-color-light);
-  }
-
-  75% {
-    border-color: var(--blue-color-light);
-  }
-
-  100% {
-    border-color: var(--black-color);
-  }
-}
-
 .inicio-seta,
 .inicio-linha {
   position: absolute;
@@ -112,12 +90,12 @@
 
 .inicio-seta {
   left: 40%;
-  bottom: -4rem;
+  bottom: -6rem;
 }
 
 .inicio-linha {
-  right: -2rem;
-  bottom: -0.5rem;
+  right: -5rem;
+  bottom: 1rem;
 }
 
 .inicio-perfil .quadrado-azul {
@@ -154,7 +132,7 @@
 }
 
 .inicio-info {
-  margin-top: 4.5rem;
+  margin-top: 7.5rem;
 }
 
 .inicio-descricao {

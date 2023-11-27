@@ -105,7 +105,7 @@ img {
   background-color: var(--blue-color);
   rotate: -30deg;
   border: 2px solid var(--white-color);
-  animation: rotacao 6s linear infinite;
+  animation: rotacao-quadrado 6s linear infinite;
 }
 
 /* .quadrado-azul::after {
@@ -118,7 +118,7 @@ img {
   top: -5px;
 } */
 
-@keyframes rotacao {
+@keyframes rotacao-quadrado {
   from {
     transform: rotate(0deg);
   }

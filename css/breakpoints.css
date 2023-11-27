@@ -321,11 +321,11 @@
     width: 28.175rem;
   }
 
-  .inicio-sombra {
+  /* .inicio-sombra {
     right: -1.25rem;
     bottom: -1.2rem;
     border: 6px solid var(--black-color);
-  }
+  } */
 
   .inicio-nome,
   .inicio-descricao {
