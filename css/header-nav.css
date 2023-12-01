@@ -170,20 +170,19 @@
 }
 
 .mudar-tema {
-  transform: translate(-50%, 50%);
-  animation: flutuando 3s infinite ease-in-out;
+  animation: alteracaoCor 3s infinite;
 }
 
-@keyframes flutuando {
+@keyframes alteracaoCor {
   0% {
-    transform: translateY(0);
+    color: var(--first-color);
   }
 
   50% {
-    transform: translateY(-5px);
+    color: var(--black-color);
   }
 
   100% {
-    transform: translateY(0);
+    color: var(--first-color);
   }
 }
