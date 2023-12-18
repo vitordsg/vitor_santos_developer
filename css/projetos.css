@@ -38,6 +38,10 @@
   margin-bottom: 1.25rem;
 }
 
+.projetos-descricao a {
+  color: var(--blue-color-light);
+}
+
 .projetos-subtitulo {
   position: relative;
   display: inline-block;
