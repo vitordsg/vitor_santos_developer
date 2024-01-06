@@ -1,0 +1,34 @@
+.servicos-container {
+  grid-template-columns: 15.625rem;
+  justify-content: center;
+  row-gap: 2rem;
+  padding-top: 1rem;
+}
+
+.servicos-card {
+  position: relative;
+}
+
+.servicos-content {
+  height: 100%;
+  background-color: var(--body-color);
+  border: 4px solid var(--black-color);
+  padding: 6rem 1rem 3rem;
+  z-index: 5;
+  position: relative;
+  transition: background-color 0.4s, border 0.4s;
+}
+
+.servicos-borda {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 4px solid var(--blue-color);
+  top: 0;
+  left: 0;
+  transition: transform 0.4s;
+}
+
+.servicos-card:hover .servicos-borda {
+  transform: translate(0.75rem, 0.75rem);
+}
