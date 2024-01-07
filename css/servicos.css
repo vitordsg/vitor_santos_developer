@@ -32,3 +32,29 @@
 .servicos-card:hover .servicos-borda {
   transform: translate(0.75rem, 0.75rem);
 }
+
+.servicos-icon {
+  position: relative;
+  display: inline-block;
+}
+
+.servicos-icon i {
+  font-size: 2rem;
+  color: var(--black-color);
+  position: relative;
+  z-index: 5;
+}
+
+.servicos-box {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: var(--blue-color);
+  right: -2px;
+  top: -2px;
+}
+
+.servicos-titulo {
+  font-size: var(--h2-font-size);
+  margin-bottom: 1.25rem;
+}
