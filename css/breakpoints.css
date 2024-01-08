@@ -487,6 +487,34 @@
     grid-template-columns: 40rem;
   }
 
+  .servicos-container {
+    grid-template-columns: repeat(3, 282px);
+    column-gap: 5rem;
+    padding-block: 3rem 5rem;
+  }
+
+  .servicos-content {
+    padding: 6.5rem 1.5rem 3.5rem;
+    border: 6px solid var(--black-color);
+  }
+
+  .servicos-icon i {
+    font-size: 3rem;
+  }
+
+  .servicos-box {
+    width: 32px;
+    height: 32px;
+  }
+
+  .servicos-titulo {
+    margin-bottom: 2rem;
+  }
+
+  .servicos-card:hover .servicos-borda {
+    transform: translate(2rem, 2rem);
+  }
+
   .projetos-container {
     grid-template-columns: repeat(3, 22rem);
     padding-block: 3rem 1rem;
