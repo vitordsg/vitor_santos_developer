@@ -269,12 +269,12 @@
     background-color: var(--title-color);
   }
 
-  .link-ativo {
+  /* .link-ativo {
     color: var(--title-color);
     font-size: 1.1rem;
     transition: 0.4s;
     transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
-  }
+  } */
 
   .nav-link-botao {
     background-color: var(--black-color);
