@@ -33,7 +33,7 @@
 .inicio-sombra {
   width: 100%;
   height: 100%;
-  background-color: var(--body-color);
+  background-color: var(--blue-color);
   position: absolute;
   bottom: -0.95rem;
   right: -0.95rem;
@@ -42,7 +42,7 @@
   transition: background-color 0.4s, border 0.7s;
 }
 
-.inicio-imagem::before,
+/* .inicio-imagem::before,
 .inicio-imagem::after {
   content: "";
   position: absolute;
@@ -78,7 +78,7 @@
   100% {
     --angulo-gradiente: 360deg;
   }
-}
+} */
 
 .inicio-seta,
 .inicio-linha {
