@@ -142,7 +142,7 @@
 }
 
 .nav-link:hover::after {
-  width: 15%;
+  width: 100%;
 }
 
 .nav-close {
