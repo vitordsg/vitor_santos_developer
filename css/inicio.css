@@ -37,48 +37,10 @@
   position: absolute;
   bottom: -0.95rem;
   right: -0.95rem;
-  border-radius: 10px;
+  border-radius: 4px;
   z-index: 1;
   transition: background-color 0.4s, border 0.7s;
 }
-
-/* .inicio-imagem::before,
-.inicio-imagem::after {
-  content: "";
-  position: absolute;
-  inset: -.1rem;
-  z-index: -1;
-  background: conic-gradient(
-    from var(--angulo-gradiente),
-    var(--blue-color),
-    var(--color-4),
-    var(--blue-color-light),
-    var(--color-4),
-    var(--blue-color)
-  );
-  border-radius: inherit;
-  animation: rotacao 3s linear infinite;
-  filter: blur(5px);
-}
-
-.inicio-imagem::after {
-  filter: blur(5px);
-}
-
-@property --angulo-gradiente {
-  syntax: "<angle>";
-  initial-value: 0deg;
-  inherits: false;
-}
-
-@keyframes rotacao {
-  0% {
-    --angulo-gradiente: 0deg;
-  }
-  100% {
-    --angulo-gradiente: 360deg;
-  }
-} */
 
 .inicio-seta,
 .inicio-linha {
