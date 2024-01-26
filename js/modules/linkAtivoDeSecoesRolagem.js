@@ -1,9 +1,7 @@
 export default function linkAtivoDeSecoesRolagem() {
   const sections = document.querySelectorAll("section[id]");
-
   const scrollAtivo = () => {
     const scrollDown = window.scrollY;
-
     sections.forEach((current) => {
       const sectionHeight = current.offsetHeight;
       const sectionTop = current.offsetTop - 258;

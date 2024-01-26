@@ -1,10 +1,8 @@
 export default function enviarEmail() {
   const contatoForm = document.querySelector(".contato-form");
   const contatoMensagem = document.querySelector(".contato-mensagem");
-
   const enviarEmail = (e) => {
     e.preventDefault();
-
     // serviceID - templateID - #form - publickKey
     emailjs
       .sendForm(

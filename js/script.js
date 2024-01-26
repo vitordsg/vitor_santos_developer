@@ -6,7 +6,6 @@ import linkAtivoDeSecoesRolagem from "./modules/linkAtivoDeSecoesRolagem.js";
 import temaEscuroClaro from "./modules/tema-escuro-claro.js";
 import enviarEmail from "./modules/email.js";
 
-
 linkAtivoDeSecoesRolagem();
 sombraHeader();
 mostrarMenuMobile();
