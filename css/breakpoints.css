@@ -1,5 +1,4 @@
 /* Pequenos dispositivos 100px & 300px */
-
 @media (max-width: 320px) {
   .container {
     margin-inline: 3rem;
@@ -74,7 +73,6 @@
 }
 
 /* Pequenos dispositivos 300px & 500px */
-
 @media screen and (min-width: 321px) and (max-width: 580px) {
   .container {
     margin-inline: 1rem;
