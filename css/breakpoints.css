@@ -430,7 +430,7 @@
     height: 40rem;
     top: -2rem;
     right: -5.5rem;
-    border-bottom: 6px solid var(--blue-color);
+    border-bottom: 4px solid var(--blue-color);
   }
 
   .sobre-perfil .quadrado-azul {
