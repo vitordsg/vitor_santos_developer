@@ -26,16 +26,6 @@
   color: var(--title-color);
 }
 
-.nav-logo-name {
-  transition: color 0.7s;
-}
-
-.nav-logo-name:hover {
-  color: var(--blue-color-light);
-  transition: color 0.7s;
-}
-
-.nav-logo-circle,
 .nav-toggle {
   width: 2rem;
   height: 2rem;
@@ -46,13 +36,18 @@
   transition: background-color 1s;
 }
 
-.nav-logo-circle {
-  border-radius: 50%;
+.logo-circle {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto;
+  margin: auto;
+  width: 60px;
+  border-radius: 40%;
 }
 
-.nav-logo-circle:hover {
-  transition: background-color 0.7s;
-  background-color: var(--blue-color-light);
+.logo-circle:hover {
+  transition: color 0.7s;
+  color: var(--blue-color-light);
 }
 
 .nav-toggle {
@@ -130,7 +125,7 @@
   content: "";
   width: 0;
   height: 2px;
-  background-color: var(--white-color);
+  background-color: var(--blue-color-light);
   position: absolute;
   left: 0;
   bottom: -0.5rem;
@@ -166,7 +161,7 @@
 }
 
 .link-ativo::after {
-  width: 55%;
+  width: 100%;
 }
 
 .mudar-tema {

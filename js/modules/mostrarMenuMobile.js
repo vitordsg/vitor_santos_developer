@@ -6,7 +6,6 @@ export default function mostrarMenuMobile() {
   if (navToggle) {
     navToggle.addEventListener('click', () => {
       navMenu.classList.add('mostrar-menu')
-      console.log('click')
     })
   }
   

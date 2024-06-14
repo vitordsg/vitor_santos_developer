@@ -264,7 +264,7 @@
   }
 
   .nav-link::after {
-    background-color: var(--title-color);
+    background-color: var(--blue-color-light);
   }
 
   .nav-link-botao {
