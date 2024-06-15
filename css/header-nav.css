@@ -22,7 +22,8 @@
   display: flex;
   column-gap: 0.5rem;
   align-items: center;
-  font-weight: var(--font-semi-bold);
+  font-size: var(--biggest-font-size);
+  font-weight: var(--font-bold);
   color: var(--title-color);
 }
 
