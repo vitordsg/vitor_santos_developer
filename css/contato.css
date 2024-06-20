@@ -200,16 +200,15 @@
   font-size: 1rem;
   display: grid;
   place-items: center;
-  border-radius: 50%;
+  border-radius: 30%;
   transition: background-color 0.5s, color 0.5s;
-  transition-timing-function: ease;
+  transition-timing-function: ease-in-out;
 }
 
 .contato-social-link:hover {
   background-color: var(--blue-color);
   color: var(--white-color);
   transition: background-color 0.5s, color 0.5s;
-  transition-timing-function: ease;
 }
 
 .contato-mensagem {

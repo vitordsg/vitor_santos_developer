@@ -10,7 +10,7 @@
   font-size: 1.25rem;
   color: var(--white-color);
   z-index: var(--z-tooltip);
-  transition: bottom 0.5s, transform 0.5s, background-color 0.5s;
+  transition: bottom 0.5s, transform 0.5s, background-color 0.5s ease-in-out;
 }
 
 .rolar-para-cima:hover {

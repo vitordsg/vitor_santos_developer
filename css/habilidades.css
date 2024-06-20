@@ -28,7 +28,7 @@
 
 .icons-habilidades img {
   filter: grayscale(100%);
-  transition: .5s ease;
+  transition: 0.5s ease-in-out;
   cursor: pointer;
 }
 
@@ -38,11 +38,12 @@
 }
 
 /* Botões */
-.botao, .botao-fantasma {
+.botao,
+.botao-fantasma {
   display: flex;
   align-items: center;
   justify-content: center;
-  column-gap: .5rem;
+  column-gap: 0.5rem;
 }
 
 .botao {
@@ -50,7 +51,7 @@
   padding: 1.1rem 1.5rem;
   color: var(--white-color);
   font-weight: var(--font-medium);
-  transition: background-color .5s;
+  transition: background-color 0.5s ease-in-out;
   border-radius: 5px;
 }
 
@@ -65,8 +66,8 @@
 .botao-fantasma {
   border: 2px solid var(--black-color);
   color: var(--black-color);
-  padding: .5rem;
-  transition: border .4s, color .4s;
+  padding: 0.5rem;
+  transition: border 0.4s ease-in-out, color 0.4s ease-in-out;
 }
 
 .botao-fantasma i {
@@ -76,5 +77,5 @@
 .botao-fantasma:hover {
   border: 2px solid var(--blue-color-light);
   color: var(--blue-color-light);
-  transition: border .4s, color .4s;
+  transition: border 0.4s, color 0.4s;
 }

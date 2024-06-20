@@ -15,11 +15,11 @@
 
 .footer-link {
   color: var(--white-color);
-  transition: color .4s;
+  transition: color .4s ease-in-out;
 }
 
 .footer-link:hover {
-  color: var(--text-color-light);
+  color: var(--blue-color-light);
 }
 
 .footer-copy {

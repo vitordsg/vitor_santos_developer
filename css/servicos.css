@@ -26,7 +26,7 @@
   border: 4px solid var(--blue-color);
   top: 0;
   left: 0;
-  transition: transform 0.4s;
+  transition: transform 0.4s ease-in-out;
 }
 
 .servicos-card:hover .servicos-borda {
