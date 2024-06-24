@@ -95,3 +95,11 @@
 .projetos-link i:hover {
   color: var(--blue-color-light);
 }
+
+.ferramentas {
+  /* margin-top: 20px; */
+  padding-top: 25px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
