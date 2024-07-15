@@ -5,4 +5,5 @@
 ![Screenshot](./img/portfolio-print.jpg)
 
 ### Links
-- Site:[Portfolio](https://vitordsg.github.io/vitor_santos_developer/)
+- Site: :desktop_computer: [Portfolio](https://vitordsg.github.io/vitor_santos_developer/)
+- Autor: :raising_hand_man: [Vitor Santos](https://github.com/vitordsg)
